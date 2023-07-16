@@ -2,9 +2,13 @@
     "name" : "Dead Mail Finder",
     "description" : "A way to find all the dead emails in your email blast",
     "version" : "1.0",
-    "manifest_version" : 3
-    // "background" : {
-    //     "service_worker" : "background.js"
-    // }
+    "manifest_version" : 3,
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "action" : {
+        "default_popup" : "popup.html"
+    }
+
    
 }
